@@ -1,0 +1,16 @@
+1、如何入门CTF
+   选好方向、打基础、多做题、实战比赛
+   writeup：
+   https://github.com/ctfs
+   https://ctftime.org/ 翻到最下面
+2、工具集：
+   1）web -> burpsuit
+   2) 逆向  IDA + gdb + peda
+   3) pwn   pwntools + ropgadget 
+3、训练平台
+   http://ctf.idf.cn/
+   解题思路
+   https://www.zhihu.com/question/30505597
+4、比赛
+   1）后门程序 http://www.vuln.cn/6319
+   2）flag提交脚本
