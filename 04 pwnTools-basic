@@ -1,0 +1,12 @@
+1. pwntools使用总结
+
+from pwn import *
+context.log_level='debug'
+p = process('./pwn1')
+pid = proc.pidof(p)[0]
+print("[+] PID is " + str(pid))
+s=input('halt:')
+payload = XXXXXX
+p.recvuntil('xxxxx')
+p.sendline(payload)
+p.interactive()
