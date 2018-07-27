@@ -1,1 +1,4 @@
-1,stack pwn 给出5道基础栈溢出题目，参考链接：https://bbs.pediy.com/thread-225487.htm
+1、 stack pwn 给出5道基础栈溢出题目，参考链接：https://bbs.pediy.com/thread-225487.htm
+2、 如何绕过栈canary   
+    入门：https://0x48.pw/2017/03/14/0x2d/
+    总结：https://veritas501.space/2017/04/28/%E8%AE%BAcanary%E7%9A%84%E5%87%A0%E7%A7%8D%E7%8E%A9%E6%B3%95/
