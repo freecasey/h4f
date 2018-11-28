@@ -7,7 +7,7 @@ def get_flag(target_host,target_port):
         print "[*] Try to connect%s:%d" % (target_host,target_port)
         client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)            
         client.connect((target_host,target_port))
-        passwd='hwctf7043'
+        passwd='xxxxx'
         client.send( base64.b64encode(base64.b64encode(passwd)))
         response=client.recv(1024)
         print "Get Flag %s" % base64.b64decode(base64.b64decode(response))
