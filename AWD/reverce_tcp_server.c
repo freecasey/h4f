@@ -1,5 +1,5 @@
 /*
-* multi_thread_socket_server.c
+ *  正向后门服务端
 *
 *  Created on: Mar 14, 2014
 *      Author: nerohwang
